@@ -1,0 +1,25 @@
+h1{
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    font-style: italic;
+    background-color: white;
+}
+
+.list-color{
+    background-color: aqua;
+    color:black;
+    font-style: oblique;
+    text-decoration: lavender;
+}
+
+p{
+  font-weight: 600px;
+  font-size: 3em;
+  line-height: initial;
+  
+}
+
+body {
+  font-size: 16px;
+}
