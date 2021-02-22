@@ -22,3 +22,19 @@ li  {
      font-weight: bolder;
  }
 
+ .p-style {
+     width: 40%;
+ }
+
+ .aside-class {
+     display: inline-block;
+ }
+
+ aside {
+     margin-left: 400px;
+ }
+
+ .main-content {
+     margin-left: 50px;
+     margin-top: 100px;
+ }
