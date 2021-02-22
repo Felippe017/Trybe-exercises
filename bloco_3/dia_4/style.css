@@ -36,4 +36,13 @@ h1 {
       list-style-type: none;
       margin-left: 810px;
   }
-  
+
+  h3 {
+    text-align: center;
+  }
+
+  .list-style {
+      display: inline-flex;
+      list-style-type: none;
+      margin-left: 600px;
+  }
