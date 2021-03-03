@@ -2,7 +2,7 @@ function maiorValorArray(arr) {
   let max = 0;
   for (let index = 0; index < arr.length; index += 1) {
     if (arr[index] > max) {
-      max = arr[index];
+      max = index;
     }
   }
   console.log(max);
