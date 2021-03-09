@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício I</title>
+</head>
+<body>
+<div id="paiDoPai">
+  <div id="pai">
+    <div id="primeiroFilho"></div>
+    <div id="elementoOndeVoceEsta">
+      <div id="primeiroFilhoDoFilho">
+        <div id="filhoCriado"></div>
+      </div>
+      <div id="segundoEUltimoFilhoDoFilho"></div>
+      <div id="maisUmFilhoDoFilho"></div>
+    </div>
+    <div id="irmaoDoElementoOndeVoceEsta"></div>
+    Atenção!
+    <div id="terceiroFilho"></div>
+    <div id="quartoEUltimoFilho"></div>
+  </div>
+</div>
+<script>
+  document.querySelector('#elementoOndeVoceEsta').parentNode.style.backgroundColor = 'red';
+  document.getElementById('primeiroFilhoDoFilho').innerHTML = 'Adicionando texto ao HTML';
+  document.querySelector('#pai').childNodes;
+  document.querySelector('#elementoOndeVoceEsta').previousElementSibling;
+  document.querySelector('#elementoOndeVoceEsta').nextSibling;
+  document.querySelector('#elementoOndeVoceEsta').childNodes[2];
+  document.querySelectorAll('#pai')[2];
+  document.querySelector('#filhoCriado').nextSibling;
+  
+</script>
+</body>
+</html>
